@@ -33,7 +33,7 @@ def render_attribution_card(title, predicted_genre, predicted_epoch,
         with col:
             item = similar_items[i]
             if os.path.exists(item['image_path']):
-                st.image(item['image_path'], use_column_width=True)
+                st.image(item['image_path'], use_container_width=True)
             else:
                 st.warning("Изображение не найдено")
             

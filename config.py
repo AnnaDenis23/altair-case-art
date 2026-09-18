@@ -4,7 +4,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Папка с картинками
-IMAGES_DIR = os.path.join(BASE_DIR, "data", "jpg")
+IMAGES_DIR = os.path.join(BASE_DIR, "data")
 
 # Папка с файлами данных (csv и npy)
 DATA_DIR = os.path.join(BASE_DIR, "files")
